@@ -237,7 +237,7 @@ co1.image(
     image,
     caption="Himanshu Arora - Team Leader",
     width=100,
-    use_column_width=True
+    use_container_width=True
 
 )
 image = Image.open("krish.png")
@@ -245,13 +245,13 @@ co2.image(
     image,
     caption="Krish Verma",
     width=100,
-    use_column_width=True
+    use_container_width=True
 )
 image = Image.open("sahil.png")
 co3.image(
     image,
     caption="Sahil",
     width=100,
-    use_column_width=True
+    use_container_width=True
 )
 
